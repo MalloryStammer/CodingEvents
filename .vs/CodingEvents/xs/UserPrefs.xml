@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{A463675D-6A45-4FA6-ADFC-421D6FE87140}|Default">
+  <MonoDevelop.Ide.ItemProperties.CodingEvents PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodingEvents/Controllers/EventsController.cs">
+    <Files>
+      <File FileName="CodingEvents/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="CodingEvents/Views/Shared/_LinkListPartial.cshtml" Line="7" Column="1" />
+      <File FileName="CodingEvents/Views/Events/Add.cshtml" Line="8" Column="57" />
+      <File FileName="CodingEvents/wwwroot/css/site.css" Line="70" Column="34" />
+      <File FileName="CodingEvents/Controllers/EventsController.cs" Line="13" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodingEvents" expanded="True">
+            <Node name="CodingEvents" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="EventsController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Events" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
