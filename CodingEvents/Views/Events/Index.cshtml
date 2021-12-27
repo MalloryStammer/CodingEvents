@@ -4,14 +4,44 @@
     <a asp-controller="Events" asp-action="Add">Add Event</a>
 </p>
 
-@if (ViewBag.events.Count==0)
- {
+@if (ViewBag.events.Count == 0)
+{
     <p>No events yet!</p>
- }
+}
 
-<ul>
-    @foreach (string meeting in ViewBag.events)
-     {
-        <li>@meeting</li>
-     }
-</ul>
+@*<ul>
+        @foreach (string meeting in ViewBag.events)
+         {
+            <li>@meeting</li>
+         }
+    </ul>*@
+
+@*<ul>
+        @foreach (KeyValuePair<string,string> kvp in ViewBag.events)
+         {
+            <li>@kvp.Key: @kvp.Value</li> 
+         }
+</ul>*@
+
+@* make name column and description column
+    *@
+
+<table>
+    <thead> 
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (KeyValuePair<string, string> kvp in ViewBag.events)
+        {
+        <tr>
+            <td>@kvp.Key</td>
+            <td>@kvp.Value</td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
