@@ -2,11 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.CodingEvents PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CodingEvents/Controllers/EventsController.cs">
     <Files>
-      <File FileName="CodingEvents/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="CodingEvents/Views/Shared/_LinkListPartial.cshtml" Line="7" Column="1" />
-      <File FileName="CodingEvents/Views/Events/Add.cshtml" Line="8" Column="57" />
-      <File FileName="CodingEvents/wwwroot/css/site.css" Line="70" Column="34" />
-      <File FileName="CodingEvents/Controllers/EventsController.cs" Line="13" Column="26" />
+      <File FileName="CodingEvents/Controllers/EventsController.cs" Line="18" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,8 +12,10 @@
               <Node name="Controllers" expanded="True">
                 <Node name="EventsController.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Events" expanded="True" />
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
