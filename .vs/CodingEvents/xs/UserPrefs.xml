@@ -1,9 +1,6 @@
 ﻿<Properties StartupConfiguration="{A463675D-6A45-4FA6-ADFC-421D6FE87140}|Default">
   <MonoDevelop.Ide.ItemProperties.CodingEvents PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CodingEvents/Controllers/EventsController.cs">
-    <Files>
-      <File FileName="CodingEvents/Controllers/EventsController.cs" Line="18" Column="37" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Leon/Desktop/CODECAMP2/13CHAPTERrazorviews/CodingEvents/CodingEvents/CodingEvents.csproj",
+      "projectUniqueName": "/Users/Leon/Desktop/CC2/13CHrazor/CodingEvents/CodingEvents/CodingEvents.csproj",
       "projectName": "CodingEvents",
-      "projectPath": "/Users/Leon/Desktop/CODECAMP2/13CHAPTERrazorviews/CodingEvents/CodingEvents/CodingEvents.csproj",
+      "projectPath": "/Users/Leon/Desktop/CC2/13CHrazor/CodingEvents/CodingEvents/CodingEvents.csproj",
       "packagesPath": "/Users/Leon/.nuget/packages/",
-      "outputPath": "/Users/Leon/Desktop/CODECAMP2/13CHAPTERrazorviews/CodingEvents/CodingEvents/obj/",
+      "outputPath": "/Users/Leon/Desktop/CC2/13CHrazor/CodingEvents/CodingEvents/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Leon/.config/NuGet/NuGet.Config"
