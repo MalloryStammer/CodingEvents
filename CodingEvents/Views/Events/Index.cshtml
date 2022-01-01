@@ -3,6 +3,10 @@
 <p>
     <a asp-controller="Events" asp-action="Add">Add Event</a>
 </p>
+<p>
+    <a asp-controller="Events" asp-action="Delete">Delete Events</a>
+</p>
+
 
 @if (ViewBag.events.Count == 0)
 {
@@ -26,24 +30,22 @@
 @* make name column and description column
     *@
 
-<table>
-    <thead> 
+<table class="table">
         <tr>
+            <th>ID</th>
             <th>Name</th>
             <th>Description</th>
             <th>Date</th>
         </tr>
-    </thead>
-    <tbody>
         @foreach (var evt in ViewBag.events)
         {
         <tr>
+            <td>@evt.Id</td>
             <td>@evt.Name</td>
             <td>@evt.Description</td>
             <td>@evt.Date</td>
         </tr>
         }
-    </tbody>
 </table>
 
 

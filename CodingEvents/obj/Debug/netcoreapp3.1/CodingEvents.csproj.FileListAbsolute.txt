@@ -78,3 +78,4 @@
 /Users/Leon/Desktop/CC2/13CHrazor/CodingEvents/CodingEvents/obj/Debug/netcoreapp3.1/CodingEvents.pdb
 /Users/Leon/Desktop/CC2/13CHrazor/CodingEvents/CodingEvents/obj/Debug/netcoreapp3.1/CodingEvents.genruntimeconfig.cache
 /Users/Leon/Desktop/CC2/13CHrazor/CodingEvents/CodingEvents/obj/Debug/netcoreapp3.1/CodingEvents.csproj.CopyComplete
+/Users/Leon/Desktop/CC2/13CHrazor/CodingEvents/CodingEvents/obj/Debug/netcoreapp3.1/Razor/Views/Events/Delete.cshtml.g.cs
