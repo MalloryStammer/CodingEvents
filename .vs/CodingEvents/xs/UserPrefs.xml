@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{A463675D-6A45-4FA6-ADFC-421D6FE87140}|Default">
   <MonoDevelop.Ide.ItemProperties.CodingEvents PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CodingEvents/Views/Events/Delete.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodingEvents/Views/Events/Edit.cshtml">
     <Files>
-      <File FileName="CodingEvents/Controllers/EventsController.cs" Line="49" Column="1" />
-      <File FileName="CodingEvents/Models/Event.cs" Line="25" Column="10" />
-      <File FileName="CodingEvents/Views/Events/Index.cshtml" Line="45" Column="9" />
-      <File FileName="CodingEvents/Views/Events/Add.cshtml" Line="12" Column="33" />
-      <File FileName="CodingEvents/Data/EventData.cs" Line="6" Column="2" />
-      <File FileName="CodingEvents/Views/Events/Delete.cshtml" Line="8" Column="6" />
+      <File FileName="CodingEvents/Controllers/EventsController.cs" Line="62" Column="41" />
+      <File FileName="CodingEvents/Models/Event.cs" Line="11" Column="1" />
+      <File FileName="CodingEvents/Views/Events/Index.cshtml" Line="14" Column="2" />
+      <File FileName="CodingEvents/Views/Events/Add.cshtml" Line="11" Column="1" />
+      <File FileName="CodingEvents/Data/EventData.cs" Line="24" Column="10" />
+      <File FileName="CodingEvents/Views/Events/Delete.cshtml" Line="25" Column="8" />
+      <File FileName="CodingEvents/Views/Events/Edit.cshtml" Line="2" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +20,7 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Events" expanded="True">
-                  <Node name="Delete.cshtml" selected="True" />
+                  <Node name="Edit.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>

@@ -1,0 +1,17 @@
+﻿<h1>Edit Event</h1>
+
+<form method="post" action="/events/edit">
+    <input type="hidden" value="@ViewBag.eventToEdit.Id" name="eventId" />
+    <input name="name" value="@ViewBag.eventToEdit.Name" type="text" autocomplete="off" placeholder="Enter event name..." />
+    <br />
+    <br />
+    <input name="description" value="@ViewBag.eventToEdit.Description" type="text" placeholder="Enter event description..." autocomplete="off" />
+    <br />
+    <br />
+    <input name="date" value="@ViewBag.eventToEdit.Date" type="datetime-local" aria-describedby="date-format" min="2022-01-01" max="2032-01-01" />
+    <br />
+    <br />
+    <input type="submit" value="Save Edits" />
+</form>
+
+<partial name="/Views/Shared/_LinkListPartial.cshtml" />

@@ -47,6 +47,7 @@ namespace CodingEvents.Controllers
         }
 
         [HttpPost]
+
         public IActionResult Delete(int[] eventIds)
         {
             foreach(int eventId in eventIds)
@@ -56,5 +57,26 @@ namespace CodingEvents.Controllers
 
             return Redirect("/Events");
         }
+
+        [HttpGet]
+        [Route("Events/Edit/{eventId}")]
+        public IActionResult Edit(int eventId)
+        {
+            Event eventToEdit =EventData.GetById(eventId);
+            ViewBag.eventToEdit = eventToEdit;
+            ViewBag.title = $"Editing {eventToEdit.Name} (ID={eventToEdit.Id})";
+            return Redirect("/Events");
+        }
+
+        [HttpPost]
+        [Route("/Events/Edit")]
+        public IActionResult SubmitEditEventForm(int eventId, string name, string description)
+        {
+            Event edittedEvent = EventData.GetById(eventId);
+            edittedEvent.Name = name;
+            edittedEvent.Description = description;
+            return Redirect("/Events");
+        }
+
     }
 }
