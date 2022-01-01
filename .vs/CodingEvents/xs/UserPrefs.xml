@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{A463675D-6A45-4FA6-ADFC-421D6FE87140}|Default">
   <MonoDevelop.Ide.ItemProperties.CodingEvents PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CodingEvents/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodingEvents/Views/Events/Index.cshtml">
     <Files>
-      <File FileName="CodingEvents/Views/Shared/_Layout.cshtml" Line="33" Column="26" />
-      <File FileName="CodingEvents/Views/Shared/_LinkListPartial.cshtml" />
-      <File FileName="CodingEvents/Views/Events/Add.cshtml" />
-      <File FileName="CodingEvents/Views/Events/Index.cshtml" />
-      <File FileName="CodingEvents/Controllers/EventsController.cs" />
-      <File FileName="CodingEvents/Views/Home/Index.cshtml" />
+      <File FileName="CodingEvents/Controllers/EventsController.cs" Line="34" Column="1" />
+      <File FileName="CodingEvents/Models/Event.cs" Line="13" Column="39" />
+      <File FileName="CodingEvents/Views/Events/Index.cshtml" Line="31" Column="13" />
+      <File FileName="CodingEvents/Views/Events/Add.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,18 +14,12 @@
             <Node name="CodingEvents" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Events" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
+                <Node name="Events" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="js" expanded="True" />
-              </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>

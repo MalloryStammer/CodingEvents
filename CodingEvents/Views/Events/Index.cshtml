@@ -31,14 +31,16 @@
         <tr>
             <th>Name</th>
             <th>Description</th>
+            <th>Date</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (KeyValuePair<string, string> kvp in ViewBag.events)
+        @foreach (var evt in ViewBag.events)
         {
         <tr>
-            <td>@kvp.Key</td>
-            <td>@kvp.Value</td>
+            <td>@evt.Name</td>
+            <td>@evt.Description</td>
+            <td>@evt.Date</td>
         </tr>
         }
     </tbody>
