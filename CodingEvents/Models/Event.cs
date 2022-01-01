@@ -9,7 +9,13 @@ namespace CodingEvents.Models
         public int Id { get; }
         private static int nextId = 1;
 
-        public Event(string name, string description, DateTime date)
+        public Event()
+        {
+            Id = nextId;
+            nextId++;
+
+        }
+        public Event(string name, string description, DateTime date): this()
         {
             Name = name;
             Description = description;
